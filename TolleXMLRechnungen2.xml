@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RECHNUNGEN>
+    <RECHNUNG>
+        <UNTERNEHMEN>
+            <STEUERNUMMER>88123/82822</STEUERNUMMER>
+            <UMSATZSTEUER_IDENTIFIKATIONSNUMMER>DE333666999</UMSATZSTEUER_IDENTIFIKATIONSNUMMER>
+            <NAME>Kleintier Meier Gmbh</NAME>
+            <ANSCHRIFT>Meierring 3 81823 Machthausen</ANSCHRIFT>
+        </UNTERNEHMEN>
+        <LEISTUNGSEMPFAENGER>
+            <VOLLST_NAME>Dr Med. Cyprian Zottel</VOLLST_NAME>
+            <ANSCHRIFT>Soddelstrudel 5a 13023 Zotenheim</ANSCHRIFT>
+        </LEISTUNGSEMPFAENGER>
+        <AUSSTELLUNGSDATUM>2017-01-15</AUSSTELLUNGSDATUM>
+        <RECHNUNGSNUMMER>657321</RECHNUNGSNUMMER>
+        <LEISTUNGEN>
+            <LEISTUNG>
+                <MENGE>3</MENGE>
+                <EINHEIT>Pakungen</EINHEIT>
+                <PRODUKT>Grippemittel "Tumifla"</PRODUKT>
+                <EINZELPREIS>120.00</EINZELPREIS>
+                <GESAMTPREIS>360.00</GESAMTPREIS>
+                <MWST>19</MWST>
+            </LEISTUNG>
+            <LEISTUNG>
+
+            </LEISTUNG>
+        </LEISTUNGEN>
+        <ZEITPUNKT_LIEFERUNG_LEISTUNG_VEREINBAHRUNG></ZEITPUNKT_LIEFERUNG_LEISTUNG_VEREINBAHRUNG>
+        <ENTGELD>
+            <RECHNUNGSBETRAG>621.94</RECHNUNGSBETRAG>
+            <NETTO>490.22</NETTO>
+            <MWST>116.74</MWST>
+        </ENTGELD>
+        <STEUER>
+            <STEUERSATZ></STEUERSATZ>
+            <STEUERBEITRAG></STEUERBEITRAG>
+            <STEUERBEFREIUNG></STEUERBEFREIUNG>
+            <HINWEIS_AUFBEWAHRUNGSPFLICHT></HINWEIS_AUFBEWAHRUNGSPFLICHT>
+            <ANGABE_GUTSCHRIFT></ANGABE_GUTSCHRIFT>
+        </STEUER>
+    </RECHNUNG>
+    <!-- Weitere Rechnungen -->
+</RECHNUNGEN>
