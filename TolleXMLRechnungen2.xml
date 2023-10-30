@@ -23,8 +23,26 @@
                 <EINZELPREIS>120.00</EINZELPREIS>
                 <GESAMTPREIS>360.00</GESAMTPREIS>
             </LEISTUNG>
-            <LEISTUNG>
-
+            <LEISTUNG MWST="19">
+                <MENGE>1</MENGE>
+                <EINHEIT>Beratung</EINHEIT>
+                <PRODUKT>Beratung pauschal</PRODUKT>
+                <EINZELPREIS>50.00</EINZELPREIS>
+                <GESAMTPREIS>50.00</GESAMTPREIS>
+            </LEISTUNG>
+            <LEISTUNG MWST="19">
+                <MENGE>2</MENGE>
+                <EINHEIT>Liter</EINHEIT>
+                <PRODUKT>Abfuehrmittel "Wech damit" pro Liter</PRODUKT>
+                <EINZELPREIS>99,99</EINZELPREIS>
+                <GESAMTPREIS>199.98</GESAMTPREIS>
+            </LEISTUNG>
+            <LEISTUNG MWST="7">
+                <MENGE>2</MENGE>
+                <EINHEIT>Stueck</EINHEIT>
+                <PRODUKT>Energieriegel "Satto"</PRODUKT>
+                <EINZELPREIS>5.98</EINZELPREIS>
+                <GESAMTPREIS>11.96</GESAMTPREIS>
             </LEISTUNG>
         </LEISTUNGEN>
         <ZEITPUNKT_LIEFERUNG_LEISTUNG_VEREINBAHRUNG></ZEITPUNKT_LIEFERUNG_LEISTUNG_VEREINBAHRUNG>
