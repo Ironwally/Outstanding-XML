@@ -16,13 +16,12 @@
         <AUSSTELLUNGSDATUM>2017-01-15</AUSSTELLUNGSDATUM>
         <RECHNUNGSNUMMER>657321</RECHNUNGSNUMMER>
         <LEISTUNGEN>
-            <LEISTUNG>
+            <LEISTUNG MWST="19">
                 <MENGE>3</MENGE>
                 <EINHEIT>Pakungen</EINHEIT>
                 <PRODUKT>Grippemittel "Tumifla"</PRODUKT>
                 <EINZELPREIS>120.00</EINZELPREIS>
                 <GESAMTPREIS>360.00</GESAMTPREIS>
-                <MWST>19</MWST>
             </LEISTUNG>
             <LEISTUNG>
 
