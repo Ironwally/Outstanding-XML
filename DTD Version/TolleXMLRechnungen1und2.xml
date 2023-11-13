@@ -4,7 +4,6 @@
 <RECHNUNGEN>
     <RECHNUNG>
         <UNTERNEHMEN>
-            
             <UMSATZSTEUER_IDENTIFIKATIONSNUMMER>DE333666999</UMSATZSTEUER_IDENTIFIKATIONSNUMMER>
             <NAME>Kleintier Meier Gmbh</NAME>
             <ANSCHRIFT>Meierring 3 81823 Machthausen</ANSCHRIFT>
@@ -27,7 +26,6 @@
                 <MENGE>1</MENGE>
                 <EINHEIT>Beratung</EINHEIT>
                 <PRODUKT>Beratung pauschal</PRODUKT>
-                <EINZELPREIS>50.00</EINZELPREIS>
                 <GESAMTPREIS>50.00</GESAMTPREIS>
             </LEISTUNG>
             <LEISTUNG MWST="19">
@@ -50,6 +48,11 @@
             <NETTO>490.22</NETTO>
             <MWST>116.74</MWST>
         </ENTGELD>
+        <ZAHLUNGSMOEGLICHKEITEN>
+            <BANK>Deutsche Bank Loerrach</BANK>
+            <IBAN>DE18683700430999666333</IBAN>
+            <BIC>DEUTDE6F683</BIC>
+        </ZAHLUNGSMOEGLICHKEITEN>
     </RECHNUNG>
     <!-- Weitere Rechnungen -->
 </RECHNUNGEN>

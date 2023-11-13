@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE RECHNUNGEN SYSTEM "xmlDTD.dtd">
+
+<RECHNUNGEN>
+    <RECHNUNG>
+        <UNTERNEHMEN>
+            
+            <UMSATZSTEUER_IDENTIFIKATIONSNUMMER>DE987654321</UMSATZSTEUER_IDENTIFIKATIONSNUMMER>
+            <NAME>Bestattungen Unterberg</NAME>
+            <ANSCHRIFT>Oberbergweg 5 43210 Ultursingen</ANSCHRIFT>
+        </UNTERNEHMEN>
+        <LEISTUNGSEMPFAENGER>
+            <VOLLST_NAME>Familie Urmel</VOLLST_NAME>
+            <ANSCHRIFT>Ulturenstrasse 764 43210 Ultursingen</ANSCHRIFT>
+        </LEISTUNGSEMPFAENGER>
+        <AUSSTELLUNGSDATUM>2017-10-19</AUSSTELLUNGSDATUM>
+        <RECHNUNGSNUMMER>89321311</RECHNUNGSNUMMER>
+        <LEISTUNGEN>
+            <LEISTUNG MWST="19">
+                <MENGE>1</MENGE>
+                <EINHEIT>Stk</EINHEIT>
+                <PRODUKT>Urne, Eiche Massiv</PRODUKT>
+                <GESAMTPREIS>299.99</GESAMTPREIS>
+            </LEISTUNG>
+            <LEISTUNG MWST="19">
+                <MENGE>1</MENGE>
+                <EINHEIT>Stk</EINHEIT>
+                <PRODUKT>Ueberfuehrung Krematorium Feuerbach inkl. Begleitpersonal</PRODUKT>
+                <GESAMTPREIS>349.00</GESAMTPREIS>
+            </LEISTUNG>
+            <LEISTUNG MWST="19">
+                <MENGE>1</MENGE>
+                <EINHEIT>Stk</EINHEIT>
+                <PRODUKT>Dekoration</PRODUKT>
+                <GESAMTPREIS>149.50</GESAMTPREIS>
+            </LEISTUNG>
+            <LEISTUNG MWST="7">
+                <MENGE>40</MENGE>
+                <EINHEIT>Stk</EINHEIT>
+                <PRODUKT>Trauerkarten inkl. Briefmarken</PRODUKT>
+                <EINZELPREIS>2.00</EINZELPREIS>
+                <GESAMTPREIS>80.00</GESAMTPREIS>
+            </LEISTUNG>
+        </LEISTUNGEN>
+        <ENTGELD>
+            <RECHNUNGSBETRAG>738.23</RECHNUNGSBETRAG>
+            <NETTO>878.49</NETTO>
+            <MWST>140.26</MWST>
+        </ENTGELD>
+        <ZAHLUNGSMOEGLICHKEITEN>
+            <BANK>UBS Zuerich</BANK>
+            <KONTONUMMER>75847683</KONTONUMMER>
+            <IBAN>DE16660501010077889911</IBAN>
+            <BIC>UBSWCHZH80H</BIC>
+            <BITCOIN>1P82rBiJHDFSav2QrKx1bvdDRVh5QnGkkZ</BITCOIN>
+        </ZAHLUNGSMOEGLICHKEITEN>
+    </RECHNUNG>
+    <!-- Weitere Rechnungen -->
+</RECHNUNGEN>
