@@ -5,6 +5,13 @@
     targetNamespace="mein.namensraum"
     xmlns="mein.namensraum">
 
+    <!-- Umsatzsteuer Identifikationsnummer Datentyp-->
+    <xs:simpleType name="USIN"> 
+        <xs:restriction base="xs:string">
+    <xs:pattern value="DE[0-9]{9}"/>
+        </xs:restriction>
+    </xs:simpleType>
+
     <xs:element name="RECHNUNGEN">
         <xs:complexType>
         <xs:sequence>
@@ -16,7 +23,7 @@
                             <xs:sequence>
                                 <xs:element name="NAME" type="xs:string" maxOccurs="1" />
                                 <xs:element name="ANSCHRIFT" type="xs:string" maxOccurs="1" />
-                                <xs:element name="UMSATZSTEUER_IDENTIFIKATIONSNUMMER" type="xs:string" maxOccurs="1" />
+                                <xs:element name="UMSATZSTEUER_IDENTIFIKATIONSNUMMER" type="USIN" maxOccurs="1" />
                             </xs:sequence>
                         </xs:complexType>
                     </xs:element>
@@ -42,6 +49,7 @@
                                             <xs:element name="EINZELPREIS" type="xs:double" />
                                             <xs:element name="GESAMTPREIS" type="xs:double" />
                                         </xs:sequence>
+                                        <xs:attribute name="MWST" type="xs:decimal" />
                                     </xs:complexType>
                                 </xs:element>
                             </xs:sequence>
