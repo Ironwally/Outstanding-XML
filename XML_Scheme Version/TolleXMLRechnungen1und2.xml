@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE RECHNUNGEN SYSTEM "xmlDTD.dtd">
 
-<RECHNUNGEN>
+
+<RECHNUNGEN 
+    xmlns="mein.namensraum"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="mein.namensraum XML_Scheme.xsd">
+    
     <RECHNUNG>
         <UNTERNEHMEN>
             <UMSATZSTEUER_IDENTIFIKATIONSNUMMER>DE333666999</UMSATZSTEUER_IDENTIFIKATIONSNUMMER>
