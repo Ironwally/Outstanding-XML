@@ -2,13 +2,14 @@
 
 <xs:schema 
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns="mein.namensraum"
     targetNamespace="mein.namensraum"
-    xmlns="mein.namensraum">
+    elementFormDefault="qualified">
 
     <!-- Umsatzsteuer Identifikationsnummer Datentyp-->
     <xs:simpleType name="USIN"> 
         <xs:restriction base="xs:string">
-    <xs:pattern value="DE[0-9]{9}"/>
+            <xs:pattern value="DE[0-9]{9}"/>
         </xs:restriction>
     </xs:simpleType>
 
@@ -46,7 +47,7 @@
                                             <xs:element name="MENGE" type="xs:decimal" />
                                             <xs:element name="EINHEIT" type="xs:string" />
                                             <xs:element name="PRODUKT" type="xs:string" />
-                                            <xs:element name="EINZELPREIS" type="xs:double" />
+                                            <xs:element name="EINZELPREIS" type="xs:double" minOccurs="0" />
                                             <xs:element name="GESAMTPREIS" type="xs:double" />
                                         </xs:sequence>
                                         <xs:attribute name="MWST" type="xs:decimal" />
@@ -58,7 +59,7 @@
                     <xs:element name="ENTGELD" maxOccurs="1">
                         <xs:complexType>
                             <xs:sequence>
-                                <xs:element name="RECHNUNGSBEITRAG" type="xs:double" maxOccurs="1" />
+                                <xs:element name="RECHNUNGSBETRAG" type="xs:double" maxOccurs="1" />
                                 <xs:element name="NETTO" type="xs:double" maxOccurs="1" />
                                 <xs:element name="MWST" type="xs:double" maxOccurs="1" />
                             </xs:sequence>

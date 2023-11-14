@@ -4,12 +4,13 @@
     xmlns="mein.namensraum"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="mein.namensraum XML_Scheme.xsd">
-    
+
+
     <RECHNUNG>
         <UNTERNEHMEN>
-            <UMSATZSTEUER_IDENTIFIKATIONSNUMMER>DE987654321</UMSATZSTEUER_IDENTIFIKATIONSNUMMER>
             <NAME>Bestattungen Unterberg</NAME>
             <ANSCHRIFT>Oberbergweg 5 43210 Ultursingen</ANSCHRIFT>
+            <UMSATZSTEUER_IDENTIFIKATIONSNUMMER>DE987654321</UMSATZSTEUER_IDENTIFIKATIONSNUMMER>
         </UNTERNEHMEN>
         <LEISTUNGSEMPFAENGER>
             <VOLLST_NAME>Familie Urmel</VOLLST_NAME>
