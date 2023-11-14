@@ -69,10 +69,10 @@
                         <xs:complexType>
                             <xs:sequence>
                                 <xs:element name="BANK" type="xs:string" maxOccurs="1" />
-                                <xs:element name="KONTONUMMER" type="xs:decimal" maxOccurs="1" />
+                                <xs:element name="KONTONUMMER" type="xs:decimal" minOccurs="0" maxOccurs="1" />
                                 <xs:element name="IBAN" type="xs:string" maxOccurs="1" />
                                 <xs:element name="BIC" type="xs:string" maxOccurs="1" />
-                                <xs:element name="BITCOIN" type="xs:string" maxOccurs="1" />
+                                <xs:element name="BITCOIN" type="xs:string" minOccurs="0" maxOccurs="1" />
                             </xs:sequence>
                         </xs:complexType>
                     </xs:element>
