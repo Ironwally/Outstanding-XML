@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<RECHNUNGEN 
+    xmlns="mein.namensraum"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="mein.namensraum ../xsd/XML_Scheme.xsd">
+    
+    <RECHNUNG>
+        <UNTERNEHMEN>
+            <UMSATZSTEUER_IDENTIFIKATIONSNUMMER>DE987654321</UMSATZSTEUER_IDENTIFIKATIONSNUMMER>
+            <NAME>Bestattungen Unterberg</NAME>
+            <ANSCHRIFT>Oberbergweg 5 43210 Ultursingen</ANSCHRIFT>
+        </UNTERNEHMEN>
+        <LEISTUNGSEMPFAENGER>
+            <VOLLST_NAME>Familie Urmel</VOLLST_NAME>
+            <ANSCHRIFT>Ulturenstrasse 764 43210 Ultursingen</ANSCHRIFT>
+        </LEISTUNGSEMPFAENGER>
+        <AUSSTELLUNGSDATUM>2017-10-19</AUSSTELLUNGSDATUM>
+        <RECHNUNGSNUMMER>89321311</RECHNUNGSNUMMER>
+        <LEISTUNGEN>
+            <LEISTUNG MWST="19">
+                <MENGE>1</MENGE>
+                <EINHEIT>Stk</EINHEIT>
+                <PRODUKT>Urne, Eiche Massiv</PRODUKT>
+                <GESAMTPREIS>299.99</GESAMTPREIS>
+            </LEISTUNG>
+            <LEISTUNG MWST="19">
+                <MENGE>1</MENGE>
+                <EINHEIT>Stk</EINHEIT>
+                <PRODUKT>Ueberfuehrung Krematorium Feuerbach inkl. Begleitpersonal</PRODUKT>
+                <GESAMTPREIS>349.00</GESAMTPREIS>
+            </LEISTUNG>
+            <LEISTUNG MWST="19">
+                <MENGE>1</MENGE>
+                <EINHEIT>Stk</EINHEIT>
+                <PRODUKT>Dekoration</PRODUKT>
+                <GESAMTPREIS>149.50</GESAMTPREIS>
+            </LEISTUNG>
+            <LEISTUNG MWST="7">
+                <MENGE>40</MENGE>
+                <EINHEIT>Stk</EINHEIT>
+                <PRODUKT>Trauerkarten inkl. Briefmarken</PRODUKT>
+                <EINZELPREIS>2.00</EINZELPREIS>
+                <GESAMTPREIS>80.00</GESAMTPREIS>
+            </LEISTUNG>
+        </LEISTUNGEN>
+        <ENTGELD>
+            <RECHNUNGSBETRAG>738.23</RECHNUNGSBETRAG>
+            <NETTO>878.49</NETTO>
+            <MWST>140.26</MWST>
+        </ENTGELD>
+        <ZAHLUNGSMOEGLICHKEITEN>
+            <BANK>UBS Zuerich</BANK>
+            <KONTONUMMER>75847683</KONTONUMMER>
+            <IBAN>DE16660501010077889911</IBAN>
+            <BIC>UBSWCHZH80H</BIC>
+            <BITCOIN>1P82rBiJHDFSav2QrKx1bvdDRVh5QnGkkZ</BITCOIN>
+        </ZAHLUNGSMOEGLICHKEITEN>
+        <Ausstellung>
+            <Aussteller>Aussteller</Aussteller>
+            <telephone>123456789</telephone>
+        </Ausstellung>
+    </RECHNUNG>
+
+    <RECHNUNG>
+        <UNTERNEHMEN>
+            <UMSATZSTEUER_IDENTIFIKATIONSNUMMER>DE333666999</UMSATZSTEUER_IDENTIFIKATIONSNUMMER>
+            <NAME>Kleintier Meier Gmbh</NAME>
+            <ANSCHRIFT>Meierring 3 81823 Machthausen</ANSCHRIFT>
+        </UNTERNEHMEN>
+        <LEISTUNGSEMPFAENGER>
+            <VOLLST_NAME>Dr Med. Cyprian Zottel</VOLLST_NAME>
+            <ANSCHRIFT>Soddelstrudel 5a 13023 Zotenheim</ANSCHRIFT>
+        </LEISTUNGSEMPFAENGER>
+        <AUSSTELLUNGSDATUM>2017-01-15</AUSSTELLUNGSDATUM>
+        <RECHNUNGSNUMMER>657321</RECHNUNGSNUMMER>
+        <LEISTUNGEN>
+            <LEISTUNG MWST="19">
+                <MENGE>3</MENGE>
+                <EINHEIT>Pakungen</EINHEIT>
+                <PRODUKT>Grippemittel "Tumifla"</PRODUKT>
+                <EINZELPREIS>120.00</EINZELPREIS>
+                <GESAMTPREIS>360.00</GESAMTPREIS>
+            </LEISTUNG>
+            <LEISTUNG MWST="19">
+                <MENGE>1</MENGE>
+                <EINHEIT>Beratung</EINHEIT>
+                <PRODUKT>Beratung pauschal</PRODUKT>
+                <GESAMTPREIS>50.00</GESAMTPREIS>
+            </LEISTUNG>
+            <LEISTUNG MWST="19">
+                <MENGE>2</MENGE>
+                <EINHEIT>Liter</EINHEIT>
+                <PRODUKT>Abfuehrmittel "Wech damit" pro Liter</PRODUKT>
+                <EINZELPREIS>99,99</EINZELPREIS>
+                <GESAMTPREIS>199.98</GESAMTPREIS>
+            </LEISTUNG>
+            <LEISTUNG MWST="7">
+                <MENGE>2</MENGE>
+                <EINHEIT>Stueck</EINHEIT>
+                <PRODUKT>Energieriegel "Satto"</PRODUKT>
+                <EINZELPREIS>5.98</EINZELPREIS>
+                <GESAMTPREIS>11.96</GESAMTPREIS>
+            </LEISTUNG>
+        </LEISTUNGEN>
+        <ENTGELD>
+            <RECHNUNGSBETRAG>621.94</RECHNUNGSBETRAG>
+            <NETTO>490.22</NETTO>
+            <MWST>116.74</MWST>
+        </ENTGELD>
+        <ZAHLUNGSMOEGLICHKEITEN>
+            <BANK>Deutsche Bank Loerrach</BANK>
+            <IBAN>DE18683700430999666333</IBAN>
+            <BIC>DEUTDE6F683</BIC>
+        </ZAHLUNGSMOEGLICHKEITEN>
+        <Ausstellung>
+            <Aussteller>Aussteller2</Aussteller>
+            <telephone>987654321</telephone>
+        </Ausstellung>
+    </RECHNUNG>
+    <!-- Weitere Rechnungen -->
+</RECHNUNGEN>
