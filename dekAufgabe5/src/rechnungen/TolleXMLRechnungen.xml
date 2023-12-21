@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<RECHNUNGEN
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="../xsd/XML_Scheme.xsd">
+
+    <RECHNUNG>
+        <UNTERNEHMEN>
+            <NAME>Kleintier Meier GmbH</NAME>
+            <ANSCHRIFT></ANSCHRIFT>
+            <UMSATZSTEUER_IDENTIFIKATIONSNUMMER></UMSATZSTEUER_IDENTIFIKATIONSNUMMER>
+        </UNTERNEHMEN>
+        <LEISTUNGSEMPFAENGER>
+            <VOLLST_NAME></VOLLST_NAME>
+            <ANSCHRIFT></ANSCHRIFT>
+        </LEISTUNGSEMPFAENGER>
+        <AUSSTELLUNGSDATUM></AUSSTELLUNGSDATUM>
+        <RECHNUNGSNUMMER></RECHNUNGSNUMMER>
+        <LEISTUNGEN>
+            <LEISTUNG>
+                <MENGE></MENGE>
+                <EINHEIT></EINHEIT>
+                <PRODUKT></PRODUKT>
+                <GESAMTPREIS></GESAMTPREIS>
+            </LEISTUNG>
+        </LEISTUNGEN>
+        <ENTGELD>
+            <RECHNUNGSBETRAG></RECHNUNGSBETRAG>
+            <MWST></MWST>
+        </ENTGELD>
+        <ZAHLUNGSMOEGLICHKEITEN>
+            <BANK></BANK>
+        </ZAHLUNGSMOEGLICHKEITEN>
+    </RECHNUNG>
+    <RECHNUNG>
+        <UNTERNEHMEN>
+            <NAME>Bestattungen Unterberg</NAME>
+            <ANSCHRIFT>Oberbergweg 5 43210 Ultursingen</ANSCHRIFT>
+            <UMSATZSTEUER_IDENTIFIKATIONSNUMMER>DE987654321</UMSATZSTEUER_IDENTIFIKATIONSNUMMER>
+            <TELEPHONE>0478777555</TELEPHONE>
+        </UNTERNEHMEN>
+        <LEISTUNGSEMPFAENGER>
+            <ANREDE>Familie</ANREDE>
+            <VOLLST_NAME>Urmel</VOLLST_NAME>
+            <ANSCHRIFT>Ulturenstrasse 764 43210 Ultursingen</ANSCHRIFT>
+        </LEISTUNGSEMPFAENGER>
+        <AUSSTELLUNGSDATUM>2017-10-19</AUSSTELLUNGSDATUM>
+        <RECHNUNGSNUMMER>89321311</RECHNUNGSNUMMER>
+        <LEISTUNGEN>
+            <LEISTUNG MWST="19">
+                <MENGE>1</MENGE>
+                <EINHEIT>Stk</EINHEIT>
+                <PRODUKT>Urne, Eiche Massiv</PRODUKT>
+                <GESAMTPREIS>299.99</GESAMTPREIS>
+            </LEISTUNG>
+            <LEISTUNG MWST="19">
+                <MENGE>1</MENGE>
+                <EINHEIT>Stk</EINHEIT>
+                <PRODUKT>Ueberfuehrung Krematorium Feuerbach inkl. Begleitpersonal</PRODUKT>
+                <GESAMTPREIS>349.00</GESAMTPREIS>
+            </LEISTUNG>
+            <LEISTUNG MWST="19">
+                <MENGE>1</MENGE>
+                <EINHEIT>Stk</EINHEIT>
+                <PRODUKT>Dekoration</PRODUKT>
+                <GESAMTPREIS>149.50</GESAMTPREIS>
+            </LEISTUNG>
+            <LEISTUNG MWST="7">
+                <MENGE>40</MENGE>
+                <EINHEIT>Stk</EINHEIT>
+                <PRODUKT>Trauerkarten inkl. Briefmarken</PRODUKT>
+                <EINZELPREIS>2.00</EINZELPREIS>
+                <GESAMTPREIS>80.00</GESAMTPREIS>
+            </LEISTUNG>
+        </LEISTUNGEN>
+        <ENTGELD>
+            <RECHNUNGSBETRAG>738.23</RECHNUNGSBETRAG>
+            <NETTO>878.49</NETTO>
+            <MWST>140.26</MWST>
+        </ENTGELD>
+        <ZAHLUNGSMOEGLICHKEITEN>
+            <BANK>UBS Zuerich</BANK>
+            <KONTONUMMER>75847683</KONTONUMMER>
+            <IBAN>DE16660501010077889911</IBAN>
+            <BIC>UBSWCHZH80H</BIC>
+            <BITCOIN>1P82rBiJHDFSav2QrKx1bvdDRVh5QnGkkZ</BITCOIN>
+        </ZAHLUNGSMOEGLICHKEITEN>
+    </RECHNUNG>
+
+    <RECHNUNG>
+        <UNTERNEHMEN>
+            <NAME>Kleintier Meier Gmbh</NAME>
+            <ANSCHRIFT>Meierring 3 71823 Machthausen(Postleitzahl eigentlich 8*)</ANSCHRIFT>
+            <UMSATZSTEUER_IDENTIFIKATIONSNUMMER>DE333666999</UMSATZSTEUER_IDENTIFIKATIONSNUMMER>
+            <TELEPHONE>0777987987</TELEPHONE>
+        </UNTERNEHMEN>
+        <LEISTUNGSEMPFAENGER>
+            <ANREDE>Dr Med.</ANREDE>
+            <VOLLST_NAME>Cyprian Zottel</VOLLST_NAME>
+            <ANSCHRIFT>Soddelstrudel 5a 13023 Zotenheim</ANSCHRIFT>
+        </LEISTUNGSEMPFAENGER>
+        <AUSSTELLUNGSDATUM>2017-01-15</AUSSTELLUNGSDATUM>
+        <RECHNUNGSNUMMER>657321</RECHNUNGSNUMMER>
+        <LEISTUNGEN>
+            <LEISTUNG MWST="19">
+                <MENGE>3</MENGE>
+                <EINHEIT>Pakungen</EINHEIT>
+                <PRODUKT>Grippemittel "Tumifla"</PRODUKT>
+                <EINZELPREIS>120.00</EINZELPREIS>
+                <GESAMTPREIS>360.00</GESAMTPREIS>
+            </LEISTUNG>
+            <LEISTUNG MWST="19">
+                <MENGE>1</MENGE>
+                <EINHEIT>Beratung</EINHEIT>
+                <PRODUKT>Beratung pauschal</PRODUKT>
+                <GESAMTPREIS>50.00</GESAMTPREIS>
+            </LEISTUNG>
+            <LEISTUNG MWST="19">
+                <MENGE>2</MENGE>
+                <EINHEIT>Liter</EINHEIT>
+                <PRODUKT>Abfuehrmittel "Wech damit" pro Liter</PRODUKT>
+                <EINZELPREIS>99.99</EINZELPREIS>
+                <GESAMTPREIS>199.98</GESAMTPREIS>
+            </LEISTUNG>
+            <LEISTUNG MWST="7">
+                <MENGE>2</MENGE>
+                <EINHEIT>Stueck</EINHEIT>
+                <PRODUKT>Energieriegel "Satto"</PRODUKT>
+                <EINZELPREIS>5.98</EINZELPREIS>
+                <GESAMTPREIS>11.96</GESAMTPREIS>
+            </LEISTUNG>
+        </LEISTUNGEN>
+        <ENTGELD>
+            <RECHNUNGSBETRAG>621.94</RECHNUNGSBETRAG>
+            <NETTO>490.22</NETTO>
+            <MWST>116.74</MWST>
+        </ENTGELD>
+        <ZAHLUNGSMOEGLICHKEITEN>
+            <BANK>Deutsche Bank Loerrach</BANK>
+            <IBAN>DE18683700430999666333</IBAN>
+            <BIC>DEUTDE6F683</BIC>
+        </ZAHLUNGSMOEGLICHKEITEN>
+    </RECHNUNG>
+
+    <RECHNUNG>
+        <UNTERNEHMEN>
+            <NAME>Weinhandel von Langres</NAME>
+            <ANSCHRIFT>Emilianigasse 19, 86866 Mickhausen</ANSCHRIFT>
+            <UMSATZSTEUER_IDENTIFIKATIONSNUMMER>DE123456789</UMSATZSTEUER_IDENTIFIKATIONSNUMMER>
+        </UNTERNEHMEN>
+        <LEISTUNGSEMPFAENGER>
+            <ANREDE>Seine Exzellenz der Hochwuerdigste Herr Erzbischof</ANREDE>
+            <VOLLST_NAME>Waldus Mikksa</VOLLST_NAME>
+            <ANSCHRIFT>Fronhof 4, 86152 Augsburg</ANSCHRIFT>
+        </LEISTUNGSEMPFAENGER>
+        <AUSSTELLUNGSDATUM>2009-11-07</AUSSTELLUNGSDATUM>
+        <RECHNUNGSNUMMER>61155532</RECHNUNGSNUMMER>
+        <LEISTUNGEN>
+            <LEISTUNG MWST="19">
+                <MENGE>1</MENGE>
+                <EINHEIT>Fass</EINHEIT>
+                <PRODUKT>"Liebliche Gottesmilbe"</PRODUKT>
+                <EINZELPREIS>2299.98</EINZELPREIS>
+                <GESAMTPREIS>2299.98</GESAMTPREIS>
+            </LEISTUNG>
+            <LEISTUNG MWST="19">
+                <MENGE>100</MENGE>
+                <EINHEIT>St¨uck</EINHEIT>
+                <PRODUKT>Standardweinglaeser "Schluck"</PRODUKT>
+                <EINZELPREIS>59.90</EINZELPREIS>
+                <GESAMTPREIS>5990.00</GESAMTPREIS>
+            </LEISTUNG>
+        </LEISTUNGEN>
+        <ENTGELD>
+            <RECHNUNGSBETRAG>2359.88</RECHNUNGSBETRAG>
+            <NETTO>1983.09</NETTO>
+            <MWST>376.79</MWST>
+        </ENTGELD>
+        <ZAHLUNGSMOEGLICHKEITEN>
+            <BANK>Pax-Bank Koeln 370 601 93</BANK>
+            <KONTONUMMER>80200601</KONTONUMMER>
+        </ZAHLUNGSMOEGLICHKEITEN>
+    </RECHNUNG>
+
+    <RECHNUNG>
+        <UNTERNEHMEN>
+            <NAME>Kleintier Meier Gmbh</NAME>
+            <ANSCHRIFT>Meierring 3 81823 Machthausen</ANSCHRIFT>
+            <UMSATZSTEUER_IDENTIFIKATIONSNUMMER>DE333666999</UMSATZSTEUER_IDENTIFIKATIONSNUMMER>
+            <TELEPHONE>07624666333999</TELEPHONE>
+        </UNTERNEHMEN>
+        <LEISTUNGSEMPFAENGER>
+            <ANREDE>Dr Med.</ANREDE>
+            <VOLLST_NAME>Cyprian Zottel</VOLLST_NAME>
+            <ANSCHRIFT>Soddelstrudel 5a 13023 Zotenheim</ANSCHRIFT>
+        </LEISTUNGSEMPFAENGER>
+        <AUSSTELLUNGSDATUM>2017-01-15</AUSSTELLUNGSDATUM>
+        <RECHNUNGSNUMMER>657321</RECHNUNGSNUMMER>
+        <LEISTUNGEN>
+            <LEISTUNG MWST="19">
+                <MENGE>3</MENGE>
+                <EINHEIT>Pakungen</EINHEIT>
+                <PRODUKT>Grippemittel "Tumifla"</PRODUKT>
+                <EINZELPREIS>120.00</EINZELPREIS>
+                <GESAMTPREIS>360.00</GESAMTPREIS>
+            </LEISTUNG>
+            <LEISTUNG MWST="19">
+                <MENGE>1</MENGE>
+                <EINHEIT>Beratung</EINHEIT>
+                <PRODUKT>Beratung pauschal</PRODUKT>
+                <EINZELPREIS>50.00</EINZELPREIS>
+                <GESAMTPREIS>50.00</GESAMTPREIS>
+            </LEISTUNG>
+            <LEISTUNG MWST="19">
+                <MENGE>2</MENGE>
+                <EINHEIT>Liter</EINHEIT>
+                <PRODUKT>Abfuehrmittel "Wech damit" pro Liter</PRODUKT>
+                <EINZELPREIS>99.99</EINZELPREIS>
+                <GESAMTPREIS>199.98</GESAMTPREIS>
+            </LEISTUNG>
+            <LEISTUNG MWST="7">
+                <MENGE>2</MENGE>
+                <EINHEIT>Stueck</EINHEIT>
+                <PRODUKT>Energieriegel "Satto"</PRODUKT>
+                <EINZELPREIS>5.98</EINZELPREIS>
+                <GESAMTPREIS>11.96</GESAMTPREIS>
+            </LEISTUNG>
+        </LEISTUNGEN>
+        <ENTGELD>
+            <RECHNUNGSBETRAG>621.94</RECHNUNGSBETRAG>
+            <NETTO>490.22</NETTO>
+            <MWST>116.74</MWST>
+        </ENTGELD>
+        <ZAHLUNGSMOEGLICHKEITEN>
+            <BANK>Deutsche Bank Loerrach</BANK>
+            <IBAN>DE18564845158455465633</IBAN>
+            <BIC>DEUTDS6F</BIC>
+        </ZAHLUNGSMOEGLICHKEITEN>
+    </RECHNUNG>
+    <RECHNUNG>
+        <UNTERNEHMEN>
+            <NAME>Herr Claudius Artemis</NAME>
+            <ANSCHRIFT>Am Wolfsweiher 7 56741 Hirschhausen</ANSCHRIFT>
+            <UMSATZSTEUER_IDENTIFIKATIONSNUMMER>DE123456789</UMSATZSTEUER_IDENTIFIKATIONSNUMMER>
+        </UNTERNEHMEN>
+        <LEISTUNGSEMPFAENGER>
+            <ANREDE>Herr</ANREDE>
+            <VOLLST_NAME>Peer Weidmann</VOLLST_NAME>
+            <ANSCHRIFT>Kuerschnergasse 77 76131 Karlsgrube</ANSCHRIFT>
+        </LEISTUNGSEMPFAENGER>
+        <AUSSTELLUNGSDATUM>2017-08-09</AUSSTELLUNGSDATUM>
+        <RECHNUNGSNUMMER>1</RECHNUNGSNUMMER>
+        <LEISTUNGEN>
+            <LEISTUNG>
+                <MENGE>1</MENGE>
+                <EINHEIT>Anzahl</EINHEIT>
+                <PRODUKT>Vogelschnepper, um 1600</PRODUKT>
+                <GESAMTPREIS>3499.00</GESAMTPREIS>
+            </LEISTUNG>
+            <LEISTUNG>
+                <MENGE>200</MENGE>
+                <EINHEIT>Anzahl</EINHEIT>
+                <PRODUKT>Schusser, um 1720</PRODUKT>
+                <GESAMTPREIS>99.99</GESAMTPREIS>
+            </LEISTUNG>
+        </LEISTUNGEN>
+        <ENTGELD>
+            <RECHNUNGSBETRAG>3598.99</RECHNUNGSBETRAG>
+            <MWST>19</MWST>
+        </ENTGELD>
+        <ZAHLUNGSMOEGLICHKEITEN>
+            <BANK>Bank</BANK>
+        </ZAHLUNGSMOEGLICHKEITEN>
+    </RECHNUNG>
+    <!-- Weitere Rechnungen -->
+</RECHNUNGEN>

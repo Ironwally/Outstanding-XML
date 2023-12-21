@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+
+<xs:schema 
+    xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <!-- Umsatzsteuer Identifikationsnummer Datentyp-->
+    <xs:simpleType name="USIN"> 
+        <xs:restriction base="xs:string">
+    <xs:pattern value="DE[0-9]{9}"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:element name="RECHNUNGEN">
+        <xs:complexType>
+        <xs:sequence>
+            <xs:element name="RECHNUNG" minOccurs="1" maxOccurs="unbounded" >
+                <xs:complexType>
+                <xs:sequence>
+                    <xs:element name="UNTERNEHMEN" maxOccurs="1" >
+                        <xs:complexType>
+                            <xs:sequence>
+                                <xs:element name="NAME" type="xs:string" maxOccurs="1" />
+                                <xs:element name="ANSCHRIFT" type="xs:string" maxOccurs="1" />
+                                <xs:element name="UMSATZSTEUER_IDENTIFIKATIONSNUMMER" type="USIN" maxOccurs="1" />
+                                <xs:element name="TELEPHONE" type="xs:decimal" maxOccurs="1" />
+                            </xs:sequence>
+                        </xs:complexType>
+                    </xs:element>
+                    <xs:element name="LEISTUNGSEMPFAENGER" maxOccurs="1">
+                        <xs:complexType>
+                            <xs:sequence>
+                                <xs:element name="ANREDE" type="xs:string" minOccurs="0" maxOccurs="1" />
+                                <xs:element name="VOLLST_NAME" type="xs:string" maxOccurs="1" />
+                                <xs:element name="ANSCHRIFT" type="xs:string" maxOccurs="1" />
+                            </xs:sequence>
+                        </xs:complexType>
+                    </xs:element>
+                    <xs:element name="AUSSTELLUNGSDATUM" type="xs:date" maxOccurs="1" />
+                    <xs:element name="RECHNUNGSNUMMER" type="xs:decimal" maxOccurs="1" />
+                    <xs:element name="LEISTUNGEN" minOccurs="1" maxOccurs="1">
+                        <xs:complexType>
+                            <xs:sequence>
+                                <xs:element name="LEISTUNG" minOccurs="1" maxOccurs="unbounded">
+                                    <xs:complexType>
+                                        <xs:sequence>
+                                            <xs:element name="MENGE" type="xs:decimal" />
+                                            <xs:element name="EINHEIT" type="xs:string" />
+                                            <xs:element name="PRODUKT" type="xs:string" />
+                                            <xs:element name="EINZELPREIS" type="xs:double" minOccurs="0"/>
+                                            <xs:element name="GESAMTPREIS" type="xs:double" />
+                                        </xs:sequence>
+                                        <xs:attribute name="MWST" type="xs:decimal" />
+                                    </xs:complexType>
+                                </xs:element>
+                            </xs:sequence>
+                        </xs:complexType>
+                    </xs:element>
+                    <xs:element name="ENTGELD" maxOccurs="1">
+                        <xs:complexType>
+                            <xs:sequence>
+                                <xs:element name="RECHNUNGSBETRAG" type="xs:double" maxOccurs="1" />
+                                <xs:element name="NETTO" type="xs:double" maxOccurs="1" />
+                                <xs:element name="MWST" type="xs:double" maxOccurs="1" />
+                            </xs:sequence>
+                        </xs:complexType>
+                    </xs:element>
+                    <xs:element name="ZAHLUNGSMOEGLICHKEITEN" maxOccurs="1">
+                        <xs:complexType>
+                            <xs:sequence>
+                                <xs:element name="BANK" type="xs:string" maxOccurs="1" />
+                                <xs:element name="KONTONUMMER" type="xs:decimal" minOccurs="0" maxOccurs="1" />
+                                <xs:element name="IBAN" type="xs:string" minOccurs="0" maxOccurs="1" />
+                                <xs:element name="BIC" type="xs:string" minOccurs="0" maxOccurs="1" />
+                                <xs:element name="BITCOIN" type="xs:string" minOccurs="0" maxOccurs="1" />
+                            </xs:sequence>
+                        </xs:complexType>
+                    </xs:element>
+                </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <!-- Weitere Rechnungsformate-->
+        </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema> 
